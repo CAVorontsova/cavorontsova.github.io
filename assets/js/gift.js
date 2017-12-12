@@ -1,7 +1,7 @@
 
 var to = 'Настя!';
-var gift_url = 'confetti/index.html';
-var gift_image_url = 'confetti/index.html';
+var gift_url = '../../index.html';
+var gift_image_url = '../../index.html';
 
 
 
