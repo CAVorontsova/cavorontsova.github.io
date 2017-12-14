@@ -1,6 +1,4 @@
 
-var present = document.querySelector('.present');
-present.onclick = function () {
 
 canvas = document.getElementById("canvas");
 context = canvas.getContext("2d");
@@ -192,4 +190,3 @@ function randomInt(min, max){
     context.fill();
 
 }
-};
