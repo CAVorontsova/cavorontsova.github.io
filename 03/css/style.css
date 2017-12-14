@@ -355,13 +355,13 @@ body {
 .present.open .right {
   -webkit-transform: translateX(50%) rotateY(90deg) rotateX(-90deg);
           transform: translateX(50%) rotateY(90deg) rotateX(-90deg);
-	opacity: 1;
+	
 }
 
 .present.open .front {
   -webkit-transform: translateZ(100px) rotateX(-90deg);
           transform: translateZ(100px) rotateX(-90deg);
-	opacity: 1;
+	
 }
 
 .present.open .lid {
