@@ -286,7 +286,7 @@ body {
 }
 
 .lid-top {
-  height: 2000px;
+  height: 210px;
   top: -5px;
   -webkit-transform: translateY(-50%) rotateX(90deg);
           transform: translateY(-50%) rotateX(90deg);
@@ -343,6 +343,7 @@ body {
 .present.open .left {
   -webkit-transform: translateX(-50%) rotateY(-90deg) rotateX(-90deg);
           transform: translateX(-50%) rotateY(-90deg) rotateX(-90deg);
+	opacity: 0;
 }
 
 .present.open .back {
