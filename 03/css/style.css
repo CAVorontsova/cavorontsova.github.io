@@ -286,7 +286,7 @@ body {
 }
 
 .lid-top {
-  height: 210px;
+  height: 2000px;
   top: -5px;
   -webkit-transform: translateY(-50%) rotateX(90deg);
           transform: translateY(-50%) rotateX(90deg);
