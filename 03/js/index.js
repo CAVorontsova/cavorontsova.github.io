@@ -14,7 +14,6 @@ present.onclick = function () {
 	width = canvas.width = window.innerWidth;
 height = canvas.height = window.innerHeight;
 
-	
 
 // création d'un tableau
 particle = [];
@@ -27,13 +26,6 @@ gravity = 0.3,
       '#FF5722', '#795548'
     ];
 
-	
-	
-
-	
-	
-	
-	
 
 
 			for( var i = 0; i < 300; i++){
@@ -207,7 +199,9 @@ function randomInt(min, max){
     context.fill();
 
 }
-		
+	
+	
+	
 	
 	
 	
