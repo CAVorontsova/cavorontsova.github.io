@@ -14,7 +14,7 @@ present.onclick = function () {
 	width = canvas.width = window.innerWidth;
 height = canvas.height = window.innerHeight;
 
-
+/*
 // création d'un tableau
 particle = [];
 particleCount = 0,
@@ -202,7 +202,7 @@ function randomInt(min, max){
 	
 	
 	
-	
+*/	
 	
 	
 	
