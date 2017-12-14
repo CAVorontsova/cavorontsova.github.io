@@ -369,7 +369,6 @@ body {
           animation: none;
   -webkit-transform: translate3d(0, -120px, -120px) rotateX(50deg);
           transform: translate3d(0, -120px, -120px) rotateX(50deg);
-	opacity: 1;
 }
 
 canvas {
