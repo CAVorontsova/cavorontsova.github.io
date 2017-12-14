@@ -1,13 +1,13 @@
 
-
+var present = document.querySelector('.present');
+present.onclick = function () {
 
 canvas = document.getElementById("canvas");
 context = canvas.getContext("2d");
 width = canvas.width = window.innerWidth;
 height = canvas.height = window.innerHeight;
 
-var present = document.querySelector('.present');
-present.onclick = function () {
+
 // création d'un tableau
 particle = [];
 particleCount = 0,
