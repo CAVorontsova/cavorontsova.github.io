@@ -1,0 +1,18 @@
+html, body{
+  padding:0;
+  margin:0;
+  background-image: url("https://cdn.shopify.com/s/files/1/1413/5918/t/2/assets/background_pattern.jpg");
+  width: 100%;
+  height: 100%;
+  cursor: default;   text-align: center;
+
+  font-family: 'PT Sans', sans-serif;
+}
+canvas{
+  position:absolute;
+  bottom: 0;
+	left:0;
+  right: 0;
+	top:0;
+	z-index:0;
+}
