@@ -26,6 +26,13 @@ gravity = 0.3,
       '#FF5722', '#795548'
     ];
 
+	
+	
+open.onclick = function () {
+	
+	
+	
+	
 function confetti(){
 
 			for( var i = 0; i < 300; i++){
@@ -203,7 +210,7 @@ function randomInt(min, max){
 };	
 	
 	
-	
+};	
 	
 	
 	
