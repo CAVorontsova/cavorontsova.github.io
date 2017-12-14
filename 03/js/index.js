@@ -2,9 +2,10 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+
 var present = document.querySelector('.present');
 present.onclick = function () {
-	return present.classList.toggle('open');
+	present.classList.toggle('open');
 };(function () {
 	'use strict';
 
