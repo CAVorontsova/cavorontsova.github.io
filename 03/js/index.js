@@ -3,6 +3,14 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 
+
+
+	var canvas = document.querySelector('canvas');
+	var context = canvas.getContext('2d');
+	
+	width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+
 var present = document.querySelector('.present');
 present.onclick = function () {
 	present.classList.toggle('open');
@@ -10,11 +18,6 @@ present.onclick = function () {
 };(function () {
 	'use strict';
 
-	var canvas = document.querySelector('canvas');
-	var context = canvas.getContext('2d');
-	
-	width = canvas.width = window.innerWidth;
-height = canvas.height = window.innerHeight;
 
 
 
