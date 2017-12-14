@@ -34,7 +34,7 @@ gravity = 0.3,
 	
 	
 	
-function confetti(){
+
 
 			for( var i = 0; i < 300; i++){
 
