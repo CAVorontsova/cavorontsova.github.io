@@ -158,7 +158,7 @@ drawScreen();
 requestAnimationFrame(update);
 }
 
-update();
+//update();
 
 
 function randomRange(min, max){
