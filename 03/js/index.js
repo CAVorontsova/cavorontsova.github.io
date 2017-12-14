@@ -29,7 +29,7 @@ gravity = 0.3,
 
 	
 	
-open.onclick = function () {
+
 	
 	
 	
