@@ -10,7 +10,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 	
 	width = canvas.width = window.innerWidth;
         height = canvas.height = window.innerHeight;
-gravity = 0.3;
 
 
 
