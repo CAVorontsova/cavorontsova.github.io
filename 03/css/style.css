@@ -346,8 +346,8 @@ body {
 }
 
 .present.open .back {
-  -webkit-transform: translateZ(-100px) rotateY(180deg) rotateX(-90deg);
-          transform: translateZ(-100px) rotateY(180deg) rotateX(-90deg);
+  -webkit-transform: translateZ(-200px) rotateY(180deg) rotateX(-90deg);
+          transform: translateZ(-200px) rotateY(180deg) rotateX(-90deg);
 }
 
 .present.open .right {
