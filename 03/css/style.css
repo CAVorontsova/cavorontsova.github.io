@@ -356,8 +356,8 @@ body {
 }
 
 .present.open .front {
-  -webkit-transform: translateZ(100px) translateY(100%) rotateX(-90deg);
-          transform: translateZ(100px) translateY(100%) rotateX(-90deg);
+  -webkit-transform: translateZ(100px) translateY(-100%) rotateX(-90deg);
+          transform: translateZ(100px) translateY(-100%) rotateX(-90deg);
 }
 
 .present.open .lid {
