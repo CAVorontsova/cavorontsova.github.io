@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+}
+body {
+    background: #E2E4E7;
+    padding: 0;
+    text-align: center;
+    font-family: 'open sans';
+    position: relative;
+    margin: 0;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+    height: 100% !important;
+    height: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+h1, h2 {
+    width: 100%;
+    float: left;
+}
+h1 {
+    margin-top: 100px;
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 70px;
+    letter-spacing: -4px;
+    font-weight: 100;
+}
+h2 {
+    color: #6D461D;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.main {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main h1 {
+    padding:150px 50px;
+    float: left;
+    width: 100%;
+    font-size: 45px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+}
+.credit {
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 410px;
+    clear: both;
+}
+.main section .page_container {
+    position: relative;
+    top: 25%;
+    margin: 0 auto 0;
+    max-width: 950px;
+    z-index: 3;
+}
+.main section  {
+    overflow: hidden;
+}
+
+.main section.page1 {
+    background: #7BE952;
+}
+.main section.page1 h1 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 70px;
+    color: black;
+}
+.main section.page1 h2 {
+    color: rgba(0,0,0,0.85);
+    text-align: center;
+    width: 435px;
+    line-height: 160%;
+}
+.main section.page2 {
+    background: rgb(245, 0, 39);
+}
+.main section.page2 .page_container {
+    margin-top: 240px;
+    overflow: hidden;
+}
+.main section.page2 h1 {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: white;
+}
+.main section.page2 h2 {
+    color: rgba(255,255,255,0.85);
+    text-align: center;
+    line-height: 160%;
+    font-weight: 100;
+}
+.main section.page3 .page_container {
+    overflow: hidden;
+    width: 500px;
+}
+.main section.page3 h1 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 70px;
+    letter-spacing: -1px;
+    color: black;
+}
+.main section.page3 h2 {
+    color: rgba(0,0,0,0.85);
+    text-align: left;
+    line-height: 160%;
+    font-weight: 100;
+    font-size: 21px;
+}
