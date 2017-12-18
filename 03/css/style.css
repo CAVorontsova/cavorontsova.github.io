@@ -342,30 +342,36 @@ body {
 
 .present.open .left {
   -webkit-transform: translateX(-50%) translateY(-100%) rotateY(-90deg) rotateX(-90deg);
-          transform: translateX(-50%)  rotateY(-90deg) rotateX(-90deg);
+          transform: translateX(-50%) translateY(-100%) rotateY(-90deg) rotateX(-90deg);
 }
 
 .present.open .back {
   -webkit-transform: translateZ(-100px) translateY(-100%) rotateY(180deg) rotateX(-90deg);
-          transform: translateZ(-100px)  rotateY(180deg) rotateX(-90deg);
+          transform: translateZ(-100px) translateY(-100%)  rotateY(180deg) rotateX(-90deg);
 }
 
 .present.open .right {
-  -webkit-transform: translateX(50%)  rotateY(90deg) rotateX(-90deg);
-          transform: translateX(50%)  rotateY(90deg) rotateX(-90deg);
+  -webkit-transform: translateX(50%) translateY(-100%) rotateY(90deg) rotateX(-90deg);
+          transform: translateX(50%) translateY(-100%) rotateY(90deg) rotateX(-90deg);
 }
 
 .present.open .front {
-  -webkit-transform: translateZ(100px)  rotateX(-90deg);
-          transform: translateZ(100px)  rotateX(-90deg);
+  -webkit-transform: translateZ(100px) translateY(-100%) rotateX(-90deg);
+          transform: translateZ(100px) translateY(-100%) rotateX(-90deg);
 }
 
 .present.open .lid {
   -webkit-animation: none;
           animation: none;
-  -webkit-transform: translate3d(0, -120px, -120px) rotateX(50deg);
-          transform: translate3d(0, -120px, -120px) rotateX(50deg);
+  -webkit-transform: translate3d(0, -120px, -120px) translateY(-100%) rotateX(50deg);
+          transform: translate3d(0, -120px, -120px) translateY(-100%) rotateX(50deg);
 }
+
+.present.open .bottom {
+  -webkit-transform: translateX(-50%) translateY(-100%) rotateY(-90deg) rotateX(-90deg);
+          transform: translateX(-50%) translateY(-100%) rotateY(-90deg) rotateX(-90deg);
+}
+
 
 canvas {
   height: 100%;
