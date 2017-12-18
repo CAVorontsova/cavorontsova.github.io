@@ -368,8 +368,8 @@ body {
 }
 
 .present.open .bottom {
-  -webkit-transform: translateX(-50%) translateY(150%) rotateY(-90deg) rotateX(-90deg);
-          transform: translateX(-50%) translateY(150%) rotateY(-90deg) rotateX(-90deg);
+  -webkit-transform: translateX(0%) translateY(150%) rotateY(-90deg) rotateX(-90deg);
+          transform: translateX(0%) translateY(150%) rotateY(-90deg) rotateX(-90deg);
 }
 
 
