@@ -120,7 +120,7 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  transition: 3s linear;
+
 	
 }
 
@@ -345,6 +345,7 @@ body {
 .present.open .left {
   -webkit-transform: translateX(-50%) translateY(100%) rotateY(-90deg) rotateX(-90deg);
           transform: translateX(-50%) translateY(100%) rotateY(-90deg) rotateX(-90deg);
+	transition: 3s linear;
 }
 
 .present.open .back {
