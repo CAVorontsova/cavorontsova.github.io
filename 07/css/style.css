@@ -717,7 +717,6 @@ textarea {
   overflow: visible;
   width: 100%;
   height: 750px;
-  background: #90d7ea;
   z-index: -1;
   -webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
