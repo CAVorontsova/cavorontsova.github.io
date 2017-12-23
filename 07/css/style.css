@@ -1725,7 +1725,7 @@ Components
 /* Image Alignment */
 img.fh5co-align-right {
   float: right;
-  margin: 0 0 .5em .3em;
+  margin: 0 0 .5em 1em;
 }
 @media screen and (max-width: 480px) {
   img.fh5co-align-right {
