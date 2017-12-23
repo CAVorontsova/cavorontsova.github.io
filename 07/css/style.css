@@ -1730,7 +1730,7 @@ img.fh5co-align-right {
 @media screen and (max-width: 480px) {
   img.fh5co-align-right {
     width: 100%;
-    margin: 0 0 .5em 0;
+    margin: 0 0 .5em .3em;
   }
 }
 img.fh5co-align-left {
