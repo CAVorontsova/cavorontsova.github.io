@@ -1,4 +1,4 @@
-function func() {
+
  
 
 
@@ -13,17 +13,12 @@ function func() {
         height = canvas.height = window.innerHeight;
 
 
-
- function () {
+var present = document.querySelector('.present');
+present.onclick = function () {
 	present.classList.toggle('open');
 	update();
+};	
 	
-};
-
-/*goToPage(){
-body.classList.toggle('open');
-setTimeout('location.replace("https://cavorontsova.github.io/07/index.html")', 3000);
-};*/
 
 
 
@@ -212,5 +207,3 @@ function randomInt(min, max){
     context.fill();
 
 }
-}
-setTimeout(func, 1000);
