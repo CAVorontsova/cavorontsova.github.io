@@ -14,8 +14,7 @@ function func() {
 
 
 
-var present = document.querySelector('.present');
-present.onclick = function () {
+ function () {
 	present.classList.toggle('open');
 	update();
 	
