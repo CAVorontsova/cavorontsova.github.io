@@ -16,7 +16,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var present = document.querySelector('.present');
 present.onclick = function () {
 	present.classList.toggle('open');
+	body.classList.toggle('open');
 	update();
+	
 };
 // création d'un tableau
 particle = [];
