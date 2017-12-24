@@ -386,4 +386,9 @@ body {
 	opacity: 0;
 }
 
+body.open{
+	transition: 5s linear;
+	opacity: 0;
+}
+
 
