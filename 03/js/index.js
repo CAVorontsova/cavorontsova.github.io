@@ -16,10 +16,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var present = document.querySelector('.present');
 present.onclick = function () {
 	present.classList.toggle('open');
-	body.classList.toggle('open');
+	goToPage();
 	update();
 	
 };
+
+goToPage(){
+body.classList.toggle('open');
+setTimeout('location.replace("https://cavorontsova.github.io/07/index.html")', 3000);
+};
+
+
+
+
 // création d'un tableau
 particle = [];
 particleCount = 0,
