@@ -942,6 +942,18 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   
 }
 #fh5co-footer::before {
+  background-image: url(../images/IMG_9139.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+  margin-bottom: 10em;
+  float: left;
+  width: 100%;
+  height: 300px;
+  display: table;
+  position: relative;
+  z-index: 20;
+  /*color: #ffffff;
   content: '';
   position: absolute;
   left: 0;
@@ -956,7 +968,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   -moz-transform: skewY(3deg);
   -ms-transform: skewY(3deg);
   -o-transform: skewY(3deg);
-  transform: skewY(3deg);
+  transform: skewY(3deg);*/
 }
 #fh5co-footer .fh5co-arrow {
   position: absolute;
