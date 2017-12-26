@@ -1,32 +1,3 @@
-/*
-//////////////////////////////////////////////////////
-
-FREE HTML5 TEMPLATE 
-DESIGNED & DEVELOPED by FREEHTML5.CO
-
-//////////////////////////////////////////////////////
-*/
-@font-face {
-  font-family: 'themify';
-  src: url("../fonts/themify/themify.eot?-fvbane");
-  src: url("../fonts/themify/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("../fonts/themify/themify.woff?-fvbane") format("woff"), url("../fonts/themify/themify.ttf?-fvbane") format("truetype"), url("../fonts/themify/themify.svg?-fvbane#themify") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-	@font-face{
-
-        font-family: 'Lumberjack Rough';
-
-        src: url("../fonts/Lumberjack Rough.otf");
-
-      
-
-        font-weight: normal;
-
-        font-style: normal;
-
-        }
 
 
 html.fh5co-overflow, body.fh5co-overflow {
@@ -41,12 +12,11 @@ html.fh5co-overflow #fh5co-header-section, html.fh5co-overflow #fh5co-main, html
 }
 
 body {
-  font-family: "Lumberjack Rough";
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
   color: #8b969c;
-  background-color: #d9c69e;
+  background-color: #d9ba9f;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -134,35 +104,7 @@ h6, .h6 {
   line-height: 24px;
 }
 
-ul, ol {
-  padding-left: 15px;
-  line-height: 26px;
-}
-ul ul, ul ol, ol ul, ol ol {
-  padding-left: 25px;
-}
 
-ul, ol, p {
-  margin: 0 0 20px 0;
-}
-
-.fh5co-serif {
-  font-family: "Crimson Text", serif;
-}
-
-.fh5co-sans-serif {
-  font-family: "Lato", arial, sans-serif;
-}
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="search"],
-textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
