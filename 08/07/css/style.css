@@ -15,8 +15,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
-  color: #8b969c;
-  background-color: #d9ba9f;
+  color: #000000;
+  background-color: #7ad4f6;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -71,7 +71,7 @@ input {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: 0 0 20px 0;
   padding: 0;
-  color: #000000;
+  color: #ffffff;
 }
 
 h1, .h1 {
@@ -184,7 +184,7 @@ h6, .h6 {
 
 
 #fh5co-hero {
-  background-image: url(../images/Nastya5.jpg);
+  background-image: url(../images/Nastya6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
