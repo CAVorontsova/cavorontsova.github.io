@@ -197,6 +197,7 @@ h6, .h6 {
 
 
 #fh5co-hero {
+	content: '';
  /*background-image: url(../images/Nasty6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -218,7 +219,7 @@ h6, .h6 {
   }
 }
 #fh5co-hero:after {
-  content: '';
+  
   position: absolute;
   left: 0;
   bottom: 0;
