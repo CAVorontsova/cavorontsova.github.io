@@ -196,7 +196,6 @@ h6, .h6 {
   position: relative;
   font-size: 40px;
   font-weight: normal;
-
   color: #ffffff;
 }
 @media screen and (max-width: 768px) {
@@ -423,54 +422,17 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   margin-bottom: 0;
 }
 
-#fh5co-call-to-action {
-  clear: both;
-  display: block;
-  padding: 3em 0;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  letter-spacing: 7px;
-  text-transform: uppercase;
-  background: transparent;
-  font-size: 16px;
-  color: #000000;
-}
-#fh5co-call-to-action:hover, #fh5co-call-to-action:focus, #fh5co-call-to-action:active {
-  color: #ffffff;
-  background: #f86942;
-  border-top: 1px solid #f86942;
-  border-bottom: 1px solid #f86942;
-}
+
 
 #fh5co-footer {
   clear: both;
-  /*position: relative;
-  padding: 4em 0 1em 0;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  background-image: url(../images/IMG_9139.JPG);
-  float: left;
-  width: 100%;
-  height: 90%;
-  font-size: 13px;
-  line-height: 20px;*/
-  
   background-image: url(../images/IMG_9140.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
   float: left;
   width: 100%;
-  height: 400px;
-
-
-
-  
-  
-  
-  
+  height: 400px; 
 }
 #fh5co-footer::before {
   color: #ffffff;
@@ -544,25 +506,6 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   list-style: none;
 }
 
-.quote {
-  width: 80%;
-  margin: 0 auto;
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 38px;
-}
-.quote cite {
-  margin-top: 20px;
-  display: block;
-  font-size: 20px;
-  font-style: normal;
-}
-@media screen and (max-width: 768px) {
-  .quote {
-    font-size: 20px;
-    width: 100%;
-  }
-}
 
 /* Helper Classes */
 /* Spacer */
@@ -885,241 +828,7 @@ Components
   }
 }
 
-#fh5co-testimonial {
-  padding: 10em 0;
-  background: #000 url(../images/hero2.jpg) no-repeat center center;
-  background-size: cover;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-testimonial {
-    padding: 3em 0;
-  }
-}
-#fh5co-testimonial blockquote {
-  padding-left: 0;
-  width: 70%;
-  margin: 0 auto;
-  color: #ffffff;
-  border-left: none;
-  font-size: 45px;
-  line-height: 57px;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-testimonial blockquote {
-    width: 100%;
-    font-size: 35px;
-    line-height: 47px;
-  }
-}
-#fh5co-testimonial blockquote p {
-  text-align: center;
-  color: #ffffff;
-}
-#fh5co-testimonial .fh5co-testimonial-author {
-  font-size: 18px;
-}
-#fh5co-testimonial .fh5co-uppercase-heading-sm {
-  color: #ffffff;
-}
 
-/* Accordions */
-.fh5co-accordion .panel-title > a {
-  border-bottom: none !important;
-}
-.fh5co-accordion .panel-title > a:hover {
-  border-bottom: none !important;
-}
-.fh5co-accordion .panel-heading {
-  background: transparent;
-  position: relative;
-  cursor: pointer;
-}
-.fh5co-accordion .panel-heading .accordion-toggle {
-  color: #90d7ea;
-}
-.fh5co-accordion .panel-heading .accordion-toggle:after {
-  font-family: 'themify';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2e2e2e !important;
-  position: absolute;
-  content: "\e622";
-  right: 15px;
-  top: 16px;
-}
-.fh5co-accordion .panel-heading.collapsed .accordion-toggle {
-  color: #2e2e2e !important;
-}
-.fh5co-accordion .panel-heading.collapsed .accordion-toggle:after {
-  font-family: 'themify';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2e2e2e !important;
-  position: absolute;
-  content: "\e61a";
-  right: 15px;
-  top: 16px;
-}
-
-/* Progress Bars */
-.progress {
-  height: 15px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  border-radius: 30px;
-}
-
-.progress-bar {
-  box-shadow: none;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  border-radius: 30px;
-}
-.progress-bar.progress-bar-default {
-  background: #90d7ea;
-}
-.progress-bar.progress-bar-success {
-  background: #00e195;
-}
-.progress-bar.progress-bar-info {
-  background: #0bbff2;
-}
-.progress-bar.progress-bar-warning {
-  background: #ffd042;
-}
-.progress-bar.progress-bar-danger {
-  background: #e02745;
-}
-
-/* Social Icons */
-.fh5co-social-icons {
-  padding: 0;
-}
-.fh5co-social-icons li {
-  list-style: none;
-  display: inline;
-  display: inline-block;
-}
-.fh5co-social-icons li a {
-  height: 40px;
-  width: 40px;
-  border: 1px solid #ebebeb;
-  display: table;
-  text-align: center;
-  color: #2e2e2e;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-}
-.fh5co-social-icons li a:hover {
-  background: #f86942;
-  border: 1px solid #f86942 !important;
-  color: #ffffff !important;
-}
-.fh5co-social-icons li i {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 18px;
-}
-
-/* Pricing Tables */
-@media screen and (max-width: 992px) {
-  .fh5co-pricing-table-1 .fh5co-pricing-table-item {
-    margin-bottom: 20px !important;
-  }
-}
-@media screen and (max-width: 768px) {
-  .fh5co-pricing-table-1 .fh5co-pricing-table-item {
-    margin-bottom: 20px !important;
-    float: left;
-    width: 100%;
-  }
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-body,
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading {
-  text-align: center;
-  float: left;
-  width: 100%;
-  padding: 1em 2em;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading {
-  background: #90d7ea;
-  color: #ffffff;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading h3 {
-  font-size: 70px;
-  position: relative;
-  display: inline-block;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading h3 sup {
-  position: absolute;
-  top: 2px;
-  margin-left: -7px;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading h3 sup, .fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading h3 span {
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading p {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item.fh5co-best-offer .fh5co-pricing-table-item-heading {
-  background: #90d7ea;
-  color: #ffffff;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-body {
-  border: 2px solid #ccc;
-  border-top: none;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-body ul {
-  padding: 0;
-  margin: 0;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-body ul li {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 10px 0;
-}
-.fh5co-pricing-table-1 .fh5co-pricing-table-item.fh5co-best-offer .fh5co-pricing-table-item-body {
-  border: 2px solid #90d7ea;
-  border-top: none;
-}
-
-/* Nav Links */
-.fh5co-nav-links ul {
-  padding: 0;
-  margin: 0;
-}
-.fh5co-nav-links ul li {
-  padding: 0;
-  margin: 0 0 .5em 0;
-  list-style: none;
-}
-.fh5co-nav-links ul li.active a {
-  color: #2e2e2e;
-  border-bottom: 2px solid #90d7ea;
-}
 
 /* Owl Override Style */
 .owl-carousel .owl-controls,
