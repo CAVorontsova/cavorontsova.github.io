@@ -46,7 +46,7 @@ body {
   line-height: 1.5;
   font-weight: normal;
   color: #000000;
-  background-image: url(../images/fon.jpg);
+  background-image: url(../images/fon.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
@@ -695,7 +695,7 @@ textarea {
 }
 
 #fh5co-hero {
-  background-image: url(../images/fon.jpg);
+  background-image: url(../images/fon.JPG);
   background-size: cover;
   background-repeat: no-repeat;
 
