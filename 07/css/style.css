@@ -709,7 +709,7 @@ textarea {
     background-position: center center;
   }
 }
-#fh5co-hero:after {
+/*#fh5co-hero:after {
   content: '';
   position: absolute;
   left: 0;
@@ -727,7 +727,7 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-}
+}*/
 #fh5co-hero .fh5co-arrow {
   position: absolute;
   bottom: -70px;
