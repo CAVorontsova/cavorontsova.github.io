@@ -17,7 +17,7 @@ var present = document.querySelector('.present');
 present.onclick = function() {
 	present.classList.toggle('open');
 	update();
-	setTimeout('location.replace("file:///E:/17/HBday/cavorontsova.github.io-master/07/index.html")', 3000);
+	setTimeout('location.replace("https://cavorontsova.github.io/08/07/index.html")', 3000);
 };	
 	
 
