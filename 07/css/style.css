@@ -690,7 +690,7 @@ textarea {
   list-style: none;
 }
 
-#fh5co-hero {
+/*#fh5co-hero {
   background-image: url(../images/Nastya4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -708,7 +708,7 @@ textarea {
   #fh5co-hero {
     background-position: center center;
   }
-}
+}*/
 /*#fh5co-hero:after {
   content: '';
   position: absolute;
