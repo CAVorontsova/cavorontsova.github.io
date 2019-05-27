@@ -1,0 +1,98 @@
+
+body{
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+  background: none;
+  margin-top: 20px;
+ 
+}
+
+.col {
+  border: none;
+  padding: 10px;
+font-style: italic;
+}
+
+.docTitle{
+    font-weight: bold;    
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid black;
+ 
+}
+.contact_form input{
+    width: 290px; 
+}
+li{
+  list-style-type: none;
+}
+.contact_form{
+    text-align: right;
+}
+h5{
+    font-weight: bold;
+}
+.doc_form{
+    
+    width: 100%;
+}
+.doc_form input{
+    width: 590px; 
+}
+.DocFormComment{
+    margin-left: 35%;
+    margin-right: 30%;
+    
+}
+caption{
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+th,td {
+    border: 1px solid black;
+    padding: 5px;
+}
+th {
+    width: 240px;
+}
+
+.EmptyField input{
+  border: none;
+ width: 300px;
+}
+table{
+    margin-bottom: 15px;
+}
+.SmallSize input {
+    width: 150px;
+}
+.Podpis{
+    margin-left: 40px;
+    display: flex;
+}
+.DocumentData{
+    display: flex;
+    margin-left: 35px;
+}
+#SmallSize{
+    width: 170px;
+}
+#LittleData{
+    width:50px;
+}
+.DocFormPodpis{
+    margin-left: 35px;
+}
+input:invalid {
+     box-shadow: 0 0 5px 1px green;
+}
+input:valid {
+     box-shadow: 0 0 5px 1px red;
+}
